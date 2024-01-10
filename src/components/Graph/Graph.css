@@ -1,0 +1,67 @@
+.graph-view{
+    /* background-color: aquamarine; */
+    width: 900px;
+    height: 380px;
+    /* margin-left: -100px; */
+    margin-right: 100px;
+}
+
+.rev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.rev-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.rev-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.rev-icon{
+    width: 24px;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.or{
+    background-color: orange;
+}
+
+.bl{
+    background-color: rgb(26, 26, 68);
+}
+
+@media screen and (max-width: 1200px){
+    .graph-view{
+        width: 650px;
+    }
+}
+@media screen and (max-width: 992px){
+    .graph-view{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 768px){
+    .graph-view{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .graph-view{
+        width: 450px;
+    }
+}
